@@ -1,6 +1,7 @@
 activate-power-mode
 atom-beautify
 atom-typescript
+autocomplete-paths
 color-picker
 docblockr
 emmet
