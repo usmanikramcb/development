@@ -2,13 +2,12 @@
 
 This script sets up all my most important local development tools (on MacOS). Feel free to use or fork it.
 
-## How to install
+## How to install from scratch
 
 Copy paste installation:
 
 ```
-curl -L -o development.zip https://github.com/ngerritsen/development/archive/master.zip;
-unzip development.zip; cd development-master; sh install.sh
+curl -L -o development.zip https://github.com/ngerritsen/development/archive/master.zip; unzip development.zip; mv development-master development; cd development; sh install.sh
 ```
 
 Or download as zip from the Github user interface and run `sh install.sh` from the unzipped folder.
