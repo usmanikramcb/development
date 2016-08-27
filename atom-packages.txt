@@ -2,6 +2,7 @@ activate-power-mode
 atom-beautify
 atom-typescript
 color-picker
+docblockr
 emmet
 file-icons
 highlight-selected
