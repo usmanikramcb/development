@@ -10,6 +10,7 @@
 	c = commit
 	cm = commit -m
 	ca = commit --amend
+	can = commit --amend --no-edit
 	co = checkout
 	cob = checkout -b
 	cl = clone —-recursive
@@ -21,11 +22,13 @@
 	l = log
 	lo = log --oneline
 	last = log -1 HEAD
+	m = merge
+	ma = merge --abort
 	p = push origin
-	pl = pull origin
-	plm = pull origin master
-	plu = pull upstream
-	plum = pull upstream master
+	pl = pull origin master
+	plu = pull upstream master
+	plr = pull --rebase origin master
+	plru = pull --rebase upstream master
 	pm = push origin master
 	r = rebase
 	rmao = remote add origin
