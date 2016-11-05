@@ -36,7 +36,10 @@ echo "Installing Atom and Hyperterm\n"
 brew cask install atom
 brew cask install hyperterm
 
-# apm install --packages-file atom-packages.txt
+apm install --packages-file atom-packages.txt
+
+echo "Installing Aerial screensaver\n"
+brew cask install aerial
 
 echo "\nCopying config files"
 
