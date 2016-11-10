@@ -17,12 +17,18 @@ brew tap caskroom/cask
 brew update
 brew cask update
 
-echo "\nInstalling core tools\n"
+echo "\nInstalling core development tools\n"
 brew install wget
 brew install git
 brew install node
 brew install php70
 brew install php70-xdebug
+
+brew cask install virtualbox
+brew install docker
+brew install boot2docker
+boot2docker init
+boot2docker up
 
 npm install -g http-server
 
@@ -32,14 +38,18 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
 
-echo "Installing Atom and Hyperterm\n"
+echo "Installing Desktop apps\n"
 brew cask install atom
 brew cask install hyperterm
 
 apm install --packages-file atom-packages.txt
 
-echo "Installing Aerial screensaver\n"
+brew cask install google-chrome
+brew cask install firefox
+brew cask install spotify
+brew cask install dropbox
 brew cask install aerial
+brew cask install flux
 
 echo "\nCopying config files"
 
