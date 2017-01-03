@@ -43,7 +43,7 @@ mv composer.phar /usr/local/bin/composer
 
 echo "Installing Desktop apps\n"
 brew cask install atom
-brew cask install hyperterm
+brew cask install hyper
 
 apm install --packages-file atom-packages.txt
 
