@@ -31,7 +31,6 @@ module.exports = {
     shell: ''
   },
   plugins: [
-    // 'hyperpower',
     'hypercwd'
   ],
   localPlugins: []
