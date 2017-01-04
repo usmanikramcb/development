@@ -1,6 +1,6 @@
 # My development tools
 
-This script sets up all my most important local development tools (on MacOS). Feel free to use or fork it.
+This script sets up all my most important local development tools and apps on macOS. Feel free to use or fork it.
 
 ## How to install from scratch
 
