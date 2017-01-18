@@ -43,6 +43,9 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
 
+mkdir -p ~/Go
+brew install go
+
 echo "Installing Desktop apps\n"
 brew cask install atom
 brew cask install hyper
