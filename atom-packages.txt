@@ -5,12 +5,12 @@ color-picker
 docblockr
 emmet
 file-icons
+go-plus
 highlight-selected
 javascript-snippets
 jumpy
 linter
 linter-eslint
-linter-phpcs
 linter-sass-lint
 merge-conflicts
 minimap
