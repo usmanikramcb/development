@@ -21,18 +21,15 @@ echo "\nInstalling core development tools\n"
 brew install wget
 brew install git
 brew install node
+brew install yarn
 brew install php70
 brew install php70-xdebug
 
 brew cask install virtualbox
-brew install docker
-brew install boot2docker
-boot2docker init
-boot2docker up
+brew cask install docker
 
 npm install -g http-server
 npm install -g n
-npm install -g yarn
 npm install -g gulp
 
 n latest
@@ -48,7 +45,6 @@ brew install go
 
 echo "Installing Desktop apps\n"
 brew cask install atom
-brew cask install hyper
 
 apm install --packages-file atom-packages.txt
 
