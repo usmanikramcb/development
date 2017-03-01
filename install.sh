@@ -60,6 +60,7 @@ echo "\nCopying config files"
 
 cp .bash_profile ~
 cp .gitconfig ~
+cp .gitignore_global ~
 cp .hyperterm.js ~
 cp .vimrc ~
 cp -r .atom/* ~/.atom

@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/ngerritsen/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [push]
 	default = current
 [alias]
