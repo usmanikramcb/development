@@ -43,7 +43,7 @@
 	rom = rebase origin/master
 	rum = rebase upstream/master
 	rc = rebase --continue
-	ra = rebase --continue
+	ra = rebase --abort
 	rs = reset
 	st = status
 	s = stash
