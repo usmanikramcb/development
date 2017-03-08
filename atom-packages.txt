@@ -1,4 +1,5 @@
 atom-beautify
+atom-ternjs
 atom-typescript
 autocomplete-paths
 color-picker
@@ -9,6 +10,7 @@ go-plus
 highlight-selected
 javascript-snippets
 jumpy
+language-haskell
 linter
 linter-eslint
 linter-sass-lint
