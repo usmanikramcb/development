@@ -48,6 +48,7 @@ brew cask install atom
 
 apm install --packages-file atom-packages.txt
 
+brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install firefox
 brew cask install 1password
