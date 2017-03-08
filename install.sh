@@ -26,6 +26,7 @@ brew install php70
 brew install php70-xdebug
 
 brew cask install virtualbox
+brew cask install vagrant
 brew cask install docker
 
 npm install -g http-server
