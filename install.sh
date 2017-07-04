@@ -21,7 +21,6 @@ echo "\nInstalling core development tools\n"
 brew install wget
 brew install git
 brew install node
-brew install yarn
 brew install php70
 brew install php70-xdebug
 
@@ -45,26 +44,20 @@ mkdir -p ~/Go
 brew install go
 
 echo "Installing Desktop apps\n"
-brew cask install atom
-
-apm install --packages-file atom-packages.txt
-
 brew cask install visual-studio-code
 brew cask install google-chrome
-brew cask install firefox
 brew cask install 1password
 brew cask install spotify
-brew cask install dropbox
 brew cask install aerial
 brew cask install flux
+brew cask install phpstorm
+brew cask install datagrip
 
 echo "\nCopying config files"
 
 cp .bash_profile ~
 cp .gitconfig ~
 cp .gitignore_global ~
-cp .hyperterm.js ~
 cp .vimrc ~
-cp -r .atom/* ~/.atom
 
 echo "${GREEN}All done!${WHITE}\n"
