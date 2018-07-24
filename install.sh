@@ -22,17 +22,12 @@ brew install wget
 brew install git
 brew install node
 brew install php70
-brew install php70-xdebug
 
-brew cask install virtualbox
-brew cask install vagrant
 brew cask install docker
 
-npm install -g http-server
 npm install -g n
-npm install -g gulp
 
-n latest
+n lts
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('SHA384', 'composer-setup.php') === 'e115a8dc7871f15d853148a7fbac7da27d6c0030b848d9b3dc09e2a0388afed865e6a3d6b3c0fad45c48e2b5fc1196ae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
@@ -40,18 +35,13 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
 
-mkdir -p ~/Go
-brew install go
-
 echo "Installing Desktop apps\n"
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install 1password
 brew cask install spotify
 brew cask install aerial
-brew cask install flux
 brew cask install phpstorm
-brew cask install datagrip
 
 echo "\nCopying config files"
 
