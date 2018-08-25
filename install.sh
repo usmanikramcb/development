@@ -52,12 +52,6 @@ brew cask install spotify
 brew cask install aerial
 brew cask install phpstorm
 
-echo "\nCopying config files"
-
-cp .bash_profile ~
-cp .gitconfig ~
-cp .gitignore_global ~
-cp .vimrc ~
-cp .zshrc ~
+sh ./update.sh
 
 echo "${GREEN}All done!${WHITE}\n"
