@@ -30,6 +30,9 @@ brew install diff-so-fancy
 brew install git
 brew install node
 brew install php70
+brew install tldr
+brew install ack
+brew install jq
 brew cask install docker
 
 npm install -g n
