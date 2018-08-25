@@ -58,5 +58,6 @@ cp .bash_profile ~
 cp .gitconfig ~
 cp .gitignore_global ~
 cp .vimrc ~
+cp .zshrc ~
 
 echo "${GREEN}All done!${WHITE}\n"
