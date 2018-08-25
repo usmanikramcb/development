@@ -18,15 +18,21 @@ brew update
 brew cask update
 
 echo "\nInstalling core development tools\n"
+brew install zsh zsh-completions
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 brew install wget
+brew install bat
+brew install prettyping
+brew install fzf
+brew install htop
+brew install diff-so-fancy
 brew install git
 brew install node
 brew install php70
-
 brew cask install docker
 
 npm install -g n
-
 n lts
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
