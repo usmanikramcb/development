@@ -23,6 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 brew install wget
 brew install bat
+brew install ncdu
 brew install prettyping
 brew install fzf
 brew install htop
