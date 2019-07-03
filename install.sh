@@ -18,9 +18,6 @@ brew update
 brew cask update
 
 echo "\nInstalling core development tools\n"
-brew install zsh zsh-completions
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 brew install wget
 brew install bat
 brew install ncdu
@@ -35,6 +32,9 @@ brew install tldr
 brew install ack
 brew install jq
 brew cask install docker
+
+brew install fish
+curl -L https://get.oh-my.fish | fish
 
 npm install -g n
 n lts
