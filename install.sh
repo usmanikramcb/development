@@ -27,14 +27,12 @@ brew install htop
 brew install diff-so-fancy
 brew install git
 brew install node
-brew install php70
+brew install php72
 brew install tldr
 brew install ack
 brew install jq
 brew cask install docker
-
 brew install fish
-curl -L https://get.oh-my.fish | fish
 
 npm install -g n
 n lts
